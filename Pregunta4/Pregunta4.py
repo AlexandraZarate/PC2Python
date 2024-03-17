@@ -21,7 +21,7 @@ def main():
         calificaciones= ingresar_calificaciones()
         alumnos[nombre]=calificaciones
 
-    # Presentar el listado de alumnos y sus calificaciones
+    # Presentar el listado de alumnos con sus respectivas calificaciones
     print("\nListado de alumnos y sus calificaciones: ")
     for nombre,calificaciones in alumnos.items():
         print(f"\nAlumno: {nombre}")
